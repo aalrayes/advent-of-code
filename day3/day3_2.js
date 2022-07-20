@@ -1,5 +1,5 @@
 const readFromFile = require("../util/readFiles.js");
-let input = readFromFile("day3/inputDay3.txt");
+let input = readFromFile("day3/inputDay3.txt","\n");
 function listToMatrix(arr) {
   const newArr = [];
   for (let i = 0; i < arr.length; i++) {
